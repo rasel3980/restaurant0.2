@@ -3,76 +3,212 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Restaurant</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <header class="flex justify-between items-center px-15">
-        <div>
-            <img src="" alt="">
-            <h1 class="text-3xl font-bold">Restaurant</h1>
-        </div>
-        <nav>
-            <ul class="flex gap-8">
-                <li><a href="">Menu</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="px-6 py-2 bg-orange-600 text-white rounded-tl-2xl rounded-br-xl">Book a table</button>
+      <div>
+        <img src="" alt="" />
+        <h1 class="text-3xl font-bold">Restaurant</h1>
+      </div>
+      <nav>
+        <ul class="flex gap-8 font-bold">
+          <li><a href="">Menu</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <button
+        class="px-6 py-2 bg-orange-600 text-white rounded-tl-2xl rounded-br-xl"
+      >
+        Book a table
+      </button>
     </header>
     <main>
-        <section class="flex relative items-center w-10/12 mx-auto gap-44 mt-20">
-            
-            <div class="absolute -top-3 -left-10">
-                <img class=" w-[70px]" src="/img/Group 1.png" alt="">
+      <section class="flex relative items-center w-10/12 mx-auto gap-44 mt-20">
+        <div class="absolute -top-3 -left-10">
+          <img class="w-[70px]" src="/img/Group 1.png" alt="" />
+        </div>
+        <div class="w-[500px]">
+          <h1 class="text-6xl">We provide the best food for you</h1>
+          <p class="py-7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="space-x-10">
+            <button
+              class="bg-black text-white rounded-tl-2xl rounded-br-xl px-6 py-2"
+            >
+              Menu
+            </button>
+            <button
+              class="bg-[#EA6D27] text-white rounded-tl-2xl rounded-br-xl px-6 py-2"
+            >
+              Book a table
+            </button>
+          </div>
+          <div class="flex gap-5 mt-10">
+            <div
+              class="w-10 h-10 border-gray-500 border-1 rounded-full flex justify-center items-center"
+            >
+              <img src="/img/image 1.png" alt="" />
             </div>
-                <div class="w-[500px]">
-                    <h1 class="text-6xl">We provide the best food for you</h1>
-                    <p class="py-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="space-x-10">
-                        <button class="bg-black text-white rounded-tl-2xl rounded-br-xl px-6 py-2">Menu</button>
-                        <button class="bg-[#EA6D27] text-white rounded-tl-2xl rounded-br-xl px-6 py-2">Book a table</button>
-                    </div>
-                    <div class="flex gap-5 mt-10">
-                        <div class="w-10 h-10 border-gray-500 border-1 rounded-full flex justify-center items-center">
-                            <img src="/img/image 1.png" alt="">
-                        </div>
-                        <div class="w-10 h-10 border-gray-500 border-1 rounded-full flex justify-center items-center">
-                            <img src="/img/icons8-instagram 1.png" alt="">
-                        </div>
-                        <div class="w-10 h-10 border-gray-500 border-1 rounded-full flex justify-center items-center">
-                            <img src="/img/image 2.png" alt="">
-                        </div>
-                       <div class="flex justify-center items-center">
-                         <h1 class="w-28 bg-gray-500 h-[2px]"></h1>
-                       </div>
-                    </div>
-                </div>
-                <div class="relative">
-                    <img class="h-[500px]" src="/img/Mask group.png" alt="">
-                    <div class="absolute bottom-0 -left-36">
-                        <img class="w-[250px]" src="/img/dish-2 1.png" alt="">
-                    </div>
-                </div>
-        </section>
-        <div class="absolute top-15 -z-50 right-8">
-                <img class="w-40" src="/img/Group.png" alt="">
+            <div
+              class="w-10 h-10 border-gray-500 border-1 rounded-full flex justify-center items-center"
+            >
+              <img src="/img/icons8-instagram 1.png" alt="" />
             </div>
-            <div class="absolute top-16 -z-50 right-96">
-                <img class="w-40 h-28" src="/img/Group (2).png" alt="">
+            <div
+              class="w-10 h-10 border-gray-500 border-1 rounded-full flex justify-center items-center"
+            >
+              <img src="/img/image 2.png" alt="" />
             </div>
-            <div class="absolute top-[450px] -z-50 right-0">
-                <img class="w-40 h-36" src="/img/Group (1).png" alt="">
+            <div class="flex justify-center items-center">
+              <h1 class="w-28 bg-gray-500 h-[2px]"></h1>
             </div>
-            <div class="w-[500px] h-[500px] border-1 border-gray-300 rounded-full absolute -top-[300px] -left-48"></div>
-            <div class="w-[450px] h-[550px] border-1 border-gray-300 rounded-full absolute -top-[330px] -left-48"></div>
-            <div class="w-[550px] h-[550px] -z-10 border-1 border-gray-300 rounded-full absolute -top-[300px] -left-48"></div>
+          </div>
+        </div>
+        <div class="relative">
+          <img class="h-[500px]" src="/img/Mask group.png" alt="" />
+          <div class="absolute bottom-0 -left-36">
+            <img class="w-[250px]" src="/img/dish-2 1.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <div class="absolute top-15 -z-50 right-8">
+        <img class="w-40" src="/img/Group.png" alt="" />
+      </div>
+      <div class="absolute top-16 -z-50 right-96">
+        <img class="w-40 h-28" src="/img/Group (2).png" alt="" />
+      </div>
+      <div class="absolute top-[450px] -z-50 right-0">
+        <img class="w-40 h-36" src="/img/Group (1).png" alt="" />
+      </div>
+      <div
+        class="w-[500px] h-[500px] border-1 border-gray-300 rounded-full absolute -top-[300px] -left-48"
+      ></div>
+      <div
+        class="w-[450px] h-[550px] border-1 border-gray-300 rounded-full absolute -top-[330px] -left-48"
+      ></div>
+      <div
+        class="w-[550px] h-[550px] -z-10 border-1 border-gray-300 rounded-full absolute -top-[300px] -left-48"
+      ></div>
+      <section class="mt-16 relative bg-gray-100 pt-15">
+        <div class="absolute top-10 left-64">
+            <img class="w-40" src="/img/Group.png" alt="">
+        </div>
+        <div class="absolute top-10 right-60">
+            <img class="w-40 h-40" src="/img/Group (1).png" alt="">
+        </div>
+        <div class="absolute z-10 top-[600px] right-60">
+            <img class="w-25 h-25" src="/img/Vector.png" alt="">
+        </div>
+        <div class="absolute top-[650px] right-[550px]">
+            <img class="w-15 h-15" src="/img/Group (1).png" alt="">
+        </div>
+        <div class="absolute top-[850px] left-28">
+            <img class="w-15 h-30" src="/img/leaf-1.png" alt="">
+        </div>
+        <div class="absolute top-[1070px] left-56">
+            <img class="w-20 h-20" src="/img/leaf-2.png" alt="">
+        </div>
+        <div class="absolute top-[800px] left-[500px]">
+            <img class="w-20 h-20" src="/img/leaf-3.png" alt="">
+        </div>
+        <div class="absolute top-[750px] left-[600px]">
+            <img class="w-30 h-30" src="/img/Group.png" alt="">
+        </div>
+        <div class="absolute top-[950px] right-44">
+            <img class="w-30 h-40" src="/img/Group (2).png" alt="">
+        </div>
+        <div>
+          <div class="text-center w-[400px] mx-auto">
+            <h1 class="text-5xl">Our Special Dishes</h1>
+            <p class="px-2 pt-5">
+              A curated selection of our most-loved creations—crafted with fresh ingredients, bold flavors, and a touch of home.
+            </p>
+          </div>
+          <div class="flex gap-4 w-10/12 mt-32 mx-auto">
+            <div class="relative">
+              <div class="absolute -top-25 left-5">
+                <img class="w-52" src="/img/dish-1 1.png" alt="" />
+              </div>
+              <div
+                class="text-center rounded-tl-[50px] rounded-br-[40px] pt-32 px-3 w-[250px] h-[280px] bg-white"
+              >
+                <h1 class="text-xl font-bold pb-4">Lumpia with Suace</h1>
+                <p class="text-gray-800">
+                  Crispy Filipino spring rolls filled with seasoned meat and vegetables, served with a sweet and tangy dipping sauce.
+                </p>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="absolute -top-25 left-5">
+                <img class="w-52" src="/img/dish-3 1.png" alt="" />
+              </div>
+              <div
+                class="text-center rounded-tl-[50px] rounded-br-[40px] pt-32 px-3 w-[250px] h-[280px] bg-white"
+              >
+                <h1 class="text-xl font-bold pb-4">Fish and Veggie</h1>
+                <p class="text-gray-800">
+                  Golden-fried spring rolls stuffed with flaky fish and fresh vegetables, served with a savory-sweet dipping sauce.
+                </p>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="absolute -top-25 left-5">
+                <img class="w-52" src="/img/dish-5.png" alt="" />
+              </div>
+              <div
+                class="text-center rounded-tl-[50px] rounded-br-[40px] pt-32 px-3 w-[250px] h-[280px] bg-white"
+              >
+                <h1 class="text-xl font-bold pb-4">Tofu Chili</h1>
+                <p class="text-gray-800">
+                  Hearty and flavorful chili made with tender tofu, beans, and vegetables, simmered in a rich, spiced tomato sauce.
+                </p>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="absolute -top-25 left-5">
+                <img class="w-52" src="/img/dish-4.png" alt="" />
+              </div>
+              <div
+                class="text-center rounded-tl-[50px] rounded-br-[40px] pt-32 px-3 w-[250px] h-[280px] bg-white"
+              >
+                <h1 class="text-xl font-bold pb-4">Egg and Cocumber</h1>
+                <p class="text-gray-800">
+                  Sliced boiled eggs paired with crisp cucumber, lightly seasoned for a refreshing and protein-packed bite.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-15 w-10/12 mx-auto mt-20">
+            <div>
+                <img class="w-[600px]" src="/img/dish-2 1.png" alt="">
+            </div>
+            <div class="w-[600px]">
+                <h1  class="text-5xl">Wecome to Our Restaurant</h1>
+                <p class="pr-16 py-6">We’re delighted to have you here! Enjoy a variety of delicious, freshly prepared dishes made with care and passion. Your perfect meal starts now.</p>
+                <div class="space-x-10">
+            <button
+              class="bg-black text-white rounded-tl-2xl rounded-br-xl px-6 py-2"
+            >
+              Menu
+            </button>
+            <button
+              class="bg-[#EA6D27] text-white rounded-tl-2xl rounded-br-xl px-6 py-2"
+            >
+              Book a table
+            </button>
+          </div>
+            </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
